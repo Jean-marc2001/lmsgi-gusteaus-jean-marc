@@ -7,15 +7,17 @@
 .encabezado {
     color: #5a3e36;
     font-family: Georgia, 'Times New Roman',serif;
-    font-size: 36px;
+    font-size: 80px;
     text-align: center;
-    margin-bottom: 15px;
     background-image: url("../imgs/guesteaus.png");
-    padding-bottom: 440px;
+    background-position: bottom;
+    padding-bottom: 541px;
     max-width: 100%;
-    height: auto;
+    height: 5px;
     background-repeat: no-repeat;
     background-size: cover;
+    text-shadow: 2px 2px white;
+    border-radius: 50px 50px 0 0;
 
 }
 
@@ -29,31 +31,58 @@ img{
     color: #ffffff;
     font-family: Helvetica, sans-serif;
     font-size: 18px;
-    transition: 2s;
     padding-top: 5px;
     padding-bottom: 5px;
     display: flex;
-    transition: border-bottom 2s;
-    border-right: 15px solid transparent;
-    
-    
+    border-radius: 0 0 50px 50px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
 }
+
+.menu ul{
+    padding: 0;
+}
+
 .menu:hover{
     color: #5a3e36;
     border-right: 15px #5a3e36;
 }
+div.menu ul li {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
 
 div.menu ul li a {
     color: #ffffff;
+    
 }
+
 div.menu ul li a:hover {
-   color:  #5a3e36;;
+   color:  #5a3e36;
+   transition: 1s;
 }
+
 .contenido {
     background-color: #fff8f0;
-    color: #5a3e36;;
+    color: #5a3e36;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+    float: left;
+    width: 70%;
+    margin-right: 25px;
+    border-right: 5px solid #5a3e36;
+    
+}
+
+
+h3 img {
+    height: 30px;
+    width: 40px;
+    display: inline-block;
+    transform: translateY(9px);
+    
 }
 
 .sidebar {
@@ -61,6 +90,7 @@ div.menu ul li a:hover {
     color: #5a3e36;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+    
 }
 
 .pie {
@@ -80,3 +110,4 @@ div.pie a {
 div.pie a:hover {
     color: #bb8475;
 }
+
