@@ -71,9 +71,7 @@ div.menu ul li a:hover {
     font-size: 18px;
     float: left;
     width: 70%;
-    margin-right: 25px;
-    border-right: 5px solid #5a3e36;
-    
+    /* border-right: 5px solid #5a3e36; */
 }
 
 
@@ -90,6 +88,8 @@ h3 img {
     color: #5a3e36;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+    width: 20%;
+    float: right;
     
 }
 
@@ -99,12 +99,12 @@ h3 img {
     font-family: Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
-    
+    clear: both;
 }
 
 div.pie a {
    color:  #ecdcc6;
-   
+   margin: 20px;
    
 }
 div.pie a:hover {
