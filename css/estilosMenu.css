@@ -1,0 +1,78 @@
+#contenedor {
+    background-color: #fff8f0;
+    font-family: 'Times New Roman',serif;
+    font-size: 16px;
+}
+
+.Encabezado {
+    color: #5a3e36;
+    font-family: Georgia, 'Times New Roman',serif;
+    font-size: 20px;
+    text-align: center;
+    background-position: bottom;
+    padding-bottom: 541px;
+    max-width: 100%;
+    height: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 2px 2px white;
+    border-radius: 50px 50px 0 0;
+    background-image: url("../imgs/restaurante.png");
+}
+
+.barraNavegacion {
+    background-color: #a77e58;
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    border-radius: 0 0 50px 50px;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.Contenido {
+    background-color: #fff8f0;
+    color: #5a3e36;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    float: left;
+    width: 70%;
+}
+
+li:after {
+    content: 'data-alergenos' attr(data-alergenos);
+    position: absolute;
+    top: -22px;
+    left: 10px;
+    background: black;
+    color: white;
+    padding: 2px;
+    border: 1px solid #eee;
+    opacity: 0;
+    transition: 0.5s opacity;
+}
+li:hover:after {
+    opacity: 1;
+  }
+
+.pie {
+    background-color: #5a3e36;
+    color: #ecdcc6;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    clear: both;
+    margin: 20px;
+}
+div.pie a {
+    color:  #ecdcc6;
+    margin: 20px;
+    
+}
+ div.pie a:hover {
+     color: #bb8475;
+}
