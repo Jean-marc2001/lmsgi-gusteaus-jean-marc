@@ -93,6 +93,40 @@ h3 img {
     
 }
 
+.formulario #nombre, #email, #telefono, #numPersonas {
+    margin-bottom: 5px;
+    margin-right: 100px;
+    border: 1px solid #a77e58;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff8f0;
+    display: block;
+    
+
+}
+#dia, #mes, #año{
+    border: 1px solid #a77e58;
+    border-radius: 5px;
+}
+#comentarios{
+    border: 1px solid #a77e58;
+    border-radius: 5px;
+}
+
+#submit {
+    background-color: #5a3e36;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}   
+
+#submit:hover{
+    color: #a77e58;
+}
+#Nombre, #Email, #Teléfono, #NumPersonas, #Horario {
+    font-size: 20px;
+}
+
 .pie {
     background-color: #5a3e36;
     color: #ecdcc6;
@@ -100,6 +134,7 @@ h3 img {
     font-size: 16px;
     text-align: center;
     clear: both;
+    margin: 20px;
 }
 
 div.pie a {

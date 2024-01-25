@@ -45,6 +45,25 @@
                 <li>Clases de Cocina con Chefs Expertos</li>
             </ul>
         </div>
+        <div class="formulario">
+            <form action="index.html" method="post">
+                <fieldset>
+                    <legend>Hacer una Reservar</legend>
+                        <br><label for="nombre" id="Nombre" >Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required><br><br>
+                        <label for="email" id="Email">Email:</label>
+                        <input type="email" id="email" name="email" required><br><br>
+                        <label for="telefono" id="Teléfono" >Teléfono:</label>
+                        <input type="telefono" id="telefono" name="Teléfono" required><br><br>
+                        <label for="numPersonas" id="NumPersonas" >Número de Personas:</label>
+                        <input type="numPersonas" id="numPersonas" name="Número de Personas" required><br><br>
+                        <label for="horario" id="Horario" >Fecha y Hora de la Reserva:</label><br><br>
+                        <input type="text" id="dia" size="1" maxlength="2"> de <select id="mes" name="nombre"><option>Enero</option><option>Febrero</option><option>Marzo</option></select> de <input type="text" id="año" size="2" maxlength="4" required><br><br>
+                        <textarea id="comentarios" name="comentarios" cols="100" rows="5"></textarea><br><br>
+                        <input type="submit" id="submit" value="Reservar Mesa">
+                </fieldset>
+            </form>
+        </div>
         <div class="pie"><a href="#sobrenosotros">Sobre Nosotros</a> © 2024 Restaurante Gusteau's - París, Francia, Marne-la-Vallée <a href="#contacto">Contacto</a> <a href="#menu">Menú</a></div>
     </div>
 </body>
