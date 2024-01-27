@@ -20,7 +20,7 @@
     background-image: url("../imgs/restaurante.png");
 }
 
-.barraNavegacion {
+nav.menu {
     background-color: #a77e58;
     color: #ffffff;
     font-family: Helvetica, sans-serif;
@@ -30,7 +30,26 @@
     display: flex;
     border-radius: 0 0 50px 50px;
     justify-content: center;
+    align-items: flex-start;
     flex-direction: row;
+}
+
+nav.menu ul{
+    padding: 0;
+}
+
+nav.menu:hover{
+    color: #5a3e36;
+    border-right: 15px #5a3e36;
+}
+nav.menu ul li {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+nav.menu ul li a {
+    color: #ffffff;
     
 }
 
@@ -43,21 +62,83 @@
     width: 70%;
 }
 
-li:after {
-    content: 'data-alergenos' attr(data-alergenos);
-    position: absolute;
-    top: -22px;
-    left: 10px;
-    background: black;
-    color: white;
-    padding: 2px;
-    border: 1px solid #eee;
-    opacity: 0;
-    transition: 0.5s opacity;
+[data-alergenos="nueces mariscos"]::after {
+    content: " nueces mariscos ";
+    padding-left: 30px;
+    color: #c96347;
+    
 }
-li:hover:after {
-    opacity: 1;
-  }
+
+[data-alergenos="nueces"]::after {
+    content: " nueces ";
+    padding-left: 30px;
+    color: #c96347;
+    
+}
+
+[data-alergenos="mariscos"]::after {
+    content: " mariscos ";
+    padding-left: 30px;
+    color: #c96347;
+    
+}
+
+[data-alergenos="mantequilla"]::after {
+    content: " mantequilla ";
+    padding-left: 30px;
+    color: #c96347;
+    
+}
+
+[data-alergenos="huevo"]::after {
+    content: " huevo ";
+    padding-left: 30px;
+    color: #c96347;
+    
+}
+
+[data-alergenos="puerros"]::after {
+    content: " puerros ";
+    padding-left: 30px;
+    color: #c96347;
+    
+}
+
+[data-alergenos="chocolate"]::after {
+    content: " chocolate ";
+    padding-left: 30px;
+    color: #c96347;
+    
+}
+
+[data-alergenos="yogur"]::after {
+    content: " yogur ";
+    padding-left: 30px;
+    color: #c96347;
+    
+}
+
+[data-alergenos="huevo y almendra"]::after {
+    content: " huevo y almendra ";
+    padding-left: 30px;
+    color: #c96347;
+    
+}
+
+[data-alergenos="merengue y castañas"]::after {
+    content: " merengue y castañas ";
+    padding-left: 30px;
+    color: #c96347;
+    
+}
+
+#Alergenos {
+    margin-right: -90px;
+    float: right;
+    padding-right: 300px;
+    transform: translateY(-75px) translateX(-149px);
+    color: #c96347;
+}
 
 .pie {
     background-color: #5a3e36;
@@ -67,6 +148,11 @@ li:hover:after {
     text-align: center;
     clear: both;
     margin: 20px;
+    border-radius: 3px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 div.pie a {
     color:  #ecdcc6;

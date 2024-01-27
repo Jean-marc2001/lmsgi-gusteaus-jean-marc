@@ -20,6 +20,11 @@
     border-radius: 50px 50px 0 0;
 
 }
+#logo {
+    width: 100px;
+    height: 100px;
+    transform: translateY(20px) translateX(30px);
+}
 
 img{
     height: 50px;
@@ -38,6 +43,7 @@ img{
     justify-content: center;
     align-items: flex-start;
     flex-direction: row;
+    
 }
 
 .menu ul{
@@ -71,7 +77,7 @@ div.menu ul li a:hover {
     font-size: 18px;
     float: left;
     width: 70%;
-    /* border-right: 5px solid #5a3e36; */
+    
 }
 
 
@@ -104,6 +110,15 @@ h3 img {
     
 
 }
+
+#formularioEstilo {
+    border-color: #a77e58;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #5a3e36;
+    font-weight: bold;
+}
+
 #dia, #mes, #año{
     border: 1px solid #a77e58;
     border-radius: 5px;
@@ -127,6 +142,13 @@ h3 img {
     font-size: 20px;
 }
 
+#ratatui {
+    transform: translateY(123px) translateX(-80px);
+    height: 454px;
+    width: 300px;
+    float: right;
+}
+
 .pie {
     background-color: #5a3e36;
     color: #ecdcc6;
@@ -135,6 +157,11 @@ h3 img {
     text-align: center;
     clear: both;
     margin: 20px;
+    border-radius: 3px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 div.pie a {
